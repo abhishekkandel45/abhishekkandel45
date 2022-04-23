@@ -4,12 +4,12 @@ Hi 👋 My name is Abhishek Kandel!!!
 Passionate Creator and Developer
 --------------------------------
 
-🔭 I’m currently working on Computer Vision 
-🌱 I’m currently learning ReactJS 
-👯 I’m looking to collaborate on research paper 
-🤔 I’m looking for help with Github Opensource 
-💬 Ask me about Python 
-😄 Pronouns: He/Him 
+🔭 I’m currently working on Computer Vision <br>
+🌱 I’m currently learning ReactJS <br>
+👯 I’m looking to collaborate on research paper <br>
+🤔 I’m looking for help with Github Opensource <br>
+💬 Ask me about Python <br>
+😄 Pronouns: He/Him <br>
 ⚡I'm Secretly a Magician but I don't want world to know it🤣🤣
 
 * 🌍  I'm based in Nepal
