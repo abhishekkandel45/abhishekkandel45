@@ -19,7 +19,9 @@ Passionate Creator and Developer
 
 <a href="https://www.twitter.com/abhishekkandel3" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/abhishekkandel3?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
-/></a>
+/></a>    ![Profile views](https://gpvc.arturio.dev/abhishekkandel45)
+
+
 
 ### Skills
 
