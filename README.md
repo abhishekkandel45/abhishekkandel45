@@ -4,7 +4,7 @@ Hi 👋 My name is Abhishek Kandel!!!
 Passionate Creator and Developer
 --------------------------------
 
-🔭 I’m currently working on Computer Vision <br>
+🔭 I’m currently working on Computer vision and building footprint detection <br>
 🌱 I’m currently learning ReactJS <br>
 👯 I’m looking to collaborate on research paper <br>
 🤔 I’m looking for help with Github Opensource <br>
