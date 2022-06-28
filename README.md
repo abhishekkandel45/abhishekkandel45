@@ -1,7 +1,7 @@
 Hi 👋 My name is Abhishek Kandel!!!
 ===================================
 
-Passionate Creator and Developer
+Passionate Creator, Developer and Tech Enthusiast
 --------------------------------
 
 🔭 I’m currently working on Computer vision and building footprint detection <br>
