@@ -15,7 +15,7 @@ Passionate Creator, Developer and Tech Enthusiast
 
 * 🌍  I'm based in Nepal
 * 🖥️  See my portfolio at [Abhishek Kandel](http://www.abhishekkandel.com.np)
-* ✉️  You can contact me at [abhishekkandel@abhishekkandel.com.np](mailto:abhishekkandel@abhishekkandel.com.np)
+* ✉️  You can contact me at [info@abhishekkandel.com.np](mailto:info@abhishekkandel.com.np)
 * ⚡  I'm Secretly a Magician but I don't want world to know it🤣🤣
 
 <a href="https://www.twitter.com/abhishekkandel3" target="_blank" rel="noreferrer"><img
