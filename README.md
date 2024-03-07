@@ -11,7 +11,7 @@ Passionate Creator, Developer and Tech Enthusiast
 💬 Ask me about Python <br>
 👦 Call me "Abhi
 😄 Pronouns: He/Him <br>
-⚡I'm Secretly a Magician but I don't want world to know it🤣🤣
+⚡I'm Secretly a Magician but I don't want world to know it🤣🤣🤣🤣
 
 * 🌍  I'm based in Nepal
 * 🖥️  See my portfolio at [Abhishek Kandel](http://www.abhishekkandel.com.np)
