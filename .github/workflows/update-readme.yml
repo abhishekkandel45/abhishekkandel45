@@ -1,0 +1,30 @@
+name: Update README with latest blog posts
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Fetch latest blog posts
+      id: fetch
+      run: |
+        curl -s https://blog.abhishekkandel.com.np/rss.xml | grep -o '<link>[^<]*</link>' | grep -v 'https://blog.abhishekkandel.com.np/rss.xml' | head -n 5 | sed 's/<link>\(.*\)<\/link>/\n* [\1](\1)/' > latest-posts.md
+    - name: Update README
+      run: |
+        sed -i '/<!-- latest-posts-start -->/,/<!-- latest-posts-end -->/c\
+        <!-- latest-posts-start -->\n\
+        '"$(cat latest-posts.md)"'\n\
+        <!-- latest-posts-end -->' README.md
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add README.md
+        git commit -m 'Update README with latest blog posts'
+        git push
