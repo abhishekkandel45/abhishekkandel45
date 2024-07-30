@@ -30,7 +30,6 @@ Passionate Creator, Developer and Tech Enthusiast
 
 ## Latest Blog Posts
 <!-- latest-posts-start -->
-
 <!-- latest-posts-end -->
 
 <div align="center">Show some ❤️ by starring some of the repositories!</div>
