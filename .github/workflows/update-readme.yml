@@ -17,10 +17,9 @@ jobs:
         curl -s https://blog.abhishekkandel.com.np/rss.xml | grep -o '<link>[^<]*</link>' | grep -v 'https://blog.abhishekkandel.com.np/rss.xml' | head -n 5 | sed 's/<link>\(.*\)<\/link>/\n* [\1](\1)/' > latest-posts.md
     - name: Update README
       run: |
+        latest_posts=$(cat latest-posts.md)
         sed -i '/<!-- latest-posts-start -->/,/<!-- latest-posts-end -->/c\
-        <!-- latest-posts-start -->\n\
-        '"$(cat latest-posts.md)"'\n\
-        <!-- latest-posts-end -->' README.md
+        <!-- latest-posts-start -->\n'"$latest_posts"'\n<!-- latest-posts-end -->' README.md
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions'
