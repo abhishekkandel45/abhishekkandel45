@@ -6,7 +6,7 @@ Passionate Creator, Developer and Tech Enthusiast
 
 
 # 💫 About Me:
-🔭 I’m currently working on Computer vision and building footprint detection<br>🌱 I’m currently learning ReactJS<br>👯 I’m looking to collaborate on research paper<br>🤔 I’m looking for help with Github Opensource<br>💬 Ask me about Python<br>👦 Call me "Abhi<br>📫 How to reach me: info@abhishekkandel.com.np<br>😄 Pronouns: He/His<br>⚡ Fun fact: I am Writer<br>🌍 I'm based in Nepal<br>🖥️ See my portfolio at Abhishek Kandel<br>⚡ I'm Secretly a Magician but I don't want world to know it🤣🤣
+🔭 I’m currently working on Computer vision and building footprint detection<br>🌱 I’m currently learning ReactJS<br>👯 I’m looking to collaborate on research paper<br>🤔 I’m looking for help with Github Opensource<br>💬 Ask me about Python<br>👦 Call me "Abhi<br>📫 How to reach me: info@abhishekkandel.com.np<br>😄 Pronouns: He/His<br>⚡ Fun fact: I am Writer<br>🌍 I'm based in Nepal<br>🖥️ See my portfolio at <a href= "http://abhishekkandel.com.np">Abhishek Kandel</a> <br>⚡ I'm Secretly a Magician but I don't want world to know it🤣🤣
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=abhishekkandel45&theme=onedark&no-bg=false&no-frame=true&margin-h=0&margin-w=0)
