@@ -23,10 +23,9 @@ jobs:
           grep -o '<link>[^<]*</link>' | \
           sed 's/<link>\(.*\)<\/link>/\1/' | \
           head -n 5 > latest-blogs.txt
-          echo -e "## Latest Blog Posts\n" > README.md
-          while read link; do
-            echo "- [$link]($link)" >> README.md
-          done < latest-blogs.txt
+          blogs=$(awk '{print "- [" $0 "](" $0 ")"}' latest-blogs.txt)
+          sed -i '/<!-- latest-posts-start -->/,/<!-- latest-posts-end -->/{//!d}' README.md
+          sed -i "/<!-- latest-posts-start -->/a $blogs" README.md
           rm feed.xml latest-blogs.txt
 
       - name: Commit changes
