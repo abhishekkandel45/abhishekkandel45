@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT }}
+        run: |
+          git clone https://github.com/${{ github.repository }}.git
+          cd ${{ github.repository }}
 
       - name: Install dependencies
         run: |
@@ -24,6 +24,7 @@ jobs:
 
       - name: Extract RSS feed and update README
         run: |
+          cd ${{ github.repository }}
           curl -s https://blog.abhishekkandel.com.np/rss.xml -o feed.xml
           echo "Downloaded RSS feed:"
           cat feed.xml
@@ -45,6 +46,7 @@ jobs:
 
       - name: Commit changes
         run: |
+          cd ${{ github.repository }}
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
@@ -52,4 +54,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
-          
