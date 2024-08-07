@@ -13,15 +13,15 @@ jobs:
     steps:
       - name: Checkout repository
         run: |
-          git clone https://github.com/${{ github.repository }}.git
-          cd ${{ github.repository }}
+          git clone https://github.com/${{ github.repository }}.git repo
+          cd repo
 
       - name: Install dependencies
         run: sudo apt-get install -y jq xmllint
 
       - name: Extract RSS feed and update README
         run: |
-          cd ${{ github.repository }}
+          cd repo
           curl -s https://blog.abhishekkandel.com.np/rss.xml -o feed.xml
           echo "Downloaded RSS feed:"
           cat feed.xml
@@ -43,7 +43,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          cd ${{ github.repository }}
+          cd repo
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
