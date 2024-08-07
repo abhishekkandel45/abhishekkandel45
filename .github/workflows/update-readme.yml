@@ -42,10 +42,14 @@ jobs:
           rm feed.xml latest-blogs.txt
 
       - name: Commit changes
+        env:
+          PAT: ${{ secrets.PAT }}
         run: |
           cd repo
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
           git add README.md
           git commit -m 'Update README with latest blog posts'
-          git push
+          git push origin main
+          
