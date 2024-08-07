@@ -1,29 +1,36 @@
-name: Update README with latest blog posts
+name: Update README with RSS feed
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *' # Runs every hour
+  push:
+    branches:
+      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Fetch latest blog posts
-      id: fetch
-      run: |
-        curl -s https://blog.abhishekkandel.com.np/rss.xml | grep -o '<link>[^<]*</link>' | grep -v 'https://blog.abhishekkandel.com.np/rss.xml' | head -n 5 | sed 's/<link>\(.*\)<\/link>/\n* [\1](\1)/' > latest-posts.md
-    - name: Update README
-      run: |
-        latest_posts=$(cat latest-posts.md)
-        sed -i '/<!-- latest-posts-start -->/,/<!-- latest-posts-end -->/c\
-        <!-- latest-posts-start -->\n'"$latest_posts"'\n<!-- latest-posts-end -->' README.md
-    - name: Commit changes
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add README.md
-        git commit -m 'Update README with latest blog posts'
-        git push
+      - uses: actions/checkout@v2
+
+      - name: Extract RSS feed and update README
+        run: |
+          sudo apt-get install -y jq
+          curl -s https://blog.abhishekkandel.com.np/rss.xml | \
+          xmllint --format - | \
+          grep -o '<link>[^<]*</link>' | \
+          sed 's/<link>\(.*\)<\/link>/\1/' | \
+          head -n 5 > latest-blogs.txt
+          echo -e "## Latest Blog Posts\n" > README.md
+          while read link; do
+            echo "- [$link]($link)" >> README.md
+          done < latest-blogs.txt
+          rm latest-blogs.txt
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README with latest blog posts'
+          git push
