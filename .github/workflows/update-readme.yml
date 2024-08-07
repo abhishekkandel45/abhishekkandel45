@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout repository
         run: |
-          git clone https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git repo
+          git clone https://<abhishekkandel45>:${{ secrets.PAT }}@github.com/${{ github.repository }}.git repo
           cd repo
 
       - name: Install dependencies
@@ -51,7 +51,7 @@ jobs:
           cd repo
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://<your-username>:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
           git add README.md
           git commit -m 'Update README with latest blog posts'
           git push origin main
