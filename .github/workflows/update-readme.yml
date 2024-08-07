@@ -13,16 +13,18 @@ jobs:
     steps:
       - name: Checkout repository
         run: |
-          git clone https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git repo
+          git clone https://abhishekkandel45:${{ secrets.PAT }}@github.com/abhishekkandel45/abhishekkandel45.git repo
           cd repo
 
       - name: Install dependencies
+        working-directory: repo
         run: |
           sudo apt-get update
           sudo apt-get install -y jq libxml2-utils
-        working-directory: repo
+          echo "Installed dependencies"
 
       - name: Extract RSS feed and update README
+        working-directory: repo
         run: |
           curl -s https://blog.abhishekkandel.com.np/rss.xml -o feed.xml
           echo "Downloaded RSS feed:"
@@ -42,16 +44,14 @@ jobs:
           cat README.md
 
           rm feed.xml latest-blogs.txt
-        working-directory: repo
 
       - name: Commit changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+        working-directory: repo
         run: |
-          cd repo
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
           git add README.md
           git commit -m 'Update README with latest blog posts'
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
