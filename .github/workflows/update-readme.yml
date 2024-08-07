@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout repository
         run: |
-          git clone https://github.com/${{ github.repository }}.git repo
+          git clone https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git repo
           cd repo
 
       - name: Install dependencies
