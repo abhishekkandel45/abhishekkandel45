@@ -13,11 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: sudo apt-get install -y jq xmllint
+
       - name: Extract RSS feed and update README
         run: |
-          sudo apt-get install -y jq
-          curl -s https://blog.abhishekkandel.com.np/rss.xml | \
-          xmllint --format - | \
+          curl -s https://blog.abhishekkandel.com.np/rss.xml -o feed.xml
+          xmllint --format feed.xml | \
           grep -o '<link>[^<]*</link>' | \
           sed 's/<link>\(.*\)<\/link>/\1/' | \
           head -n 5 > latest-blogs.txt
@@ -25,7 +27,7 @@ jobs:
           while read link; do
             echo "- [$link]($link)" >> README.md
           done < latest-blogs.txt
-          rm latest-blogs.txt
+          rm feed.xml latest-blogs.txt
 
       - name: Commit changes
         run: |
