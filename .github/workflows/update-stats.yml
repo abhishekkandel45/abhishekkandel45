@@ -1,0 +1,31 @@
+name: Profile Stats Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update GitHub Stats
+        run: |
+          echo "Updating GitHub statistics..."
+          # Force refresh of GitHub stats by adding timestamp
+          sed -i "s/<!-- last-updated: .* -->/<!-- last-updated: $(date) -->/" README.md
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "📊 Auto-update profile stats"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

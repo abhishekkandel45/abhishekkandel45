@@ -1,0 +1,29 @@
+name: Link Checker
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Weekly on Monday at 8 AM
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      - name: Check links in README
+        run: |
+          markdown-link-check README.md --config .github/link-check-config.json || true
+
+      - name: Check links in other markdown files
+        run: |
+          find . -name "*.md" -not -path "./node_modules/*" -exec markdown-link-check {} \;
