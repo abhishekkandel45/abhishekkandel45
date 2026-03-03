@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abhishek%20Kandel&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Engineer%20%7C%20ML%20Researcher%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=20)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=800&color=667EEA&center=true&vCenter=true&width=850&height=80&lines=🚀+Building+Intelligent+Systems+at+Scale;🔬+IEEE+Published+AI+Researcher;🌐+Full+Stack+%26+MLOps+Engineer;🇳🇵+Proudly+Building+from+Nepal)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=800&color=667EEA&center=true&vCenter=true&width=850&height=80&lines=🚀+Building+Intelligent+Systems+at+Scale;🔬+IEEE+Published+AI+Researcher;🌐+Full+Stack+%26+MLOps+Engineer;🇳🇵+Proudly+Building+from+Nepal)](https://git.io/typing-svg)
 
 <br/>
 
@@ -140,10 +140,10 @@ class AbhishekKandel:
 
 ## 📊 GitHub Statistics
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abhishekkandel45&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abhishekkandel45&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abhishekkandel45&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.demolab.com/?user=abhishekkandel45&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekkandel45&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=10" alt="Top Languages"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekkandel45&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=10&cache_seconds=1800" alt="Top Languages"/>
 <img width="49%" src="https://github-contribution-stats.vercel.app/api/?username=abhishekkandel45&theme=dark" alt="Contribution Stats"/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=abhishekkandel45&theme=react-dark&bg_color=0d1117&hide_border=true&point=667eea&line=667eea&color=c9d1d9" alt="Activity Graph"/>
@@ -172,7 +172,7 @@ class AbhishekKandel:
 
 ## 🤝 Let's Connect
 
-<a href="http://abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+a href="http://abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 <a href="https://blog.abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/✍️_Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white"/></a>
 <a href="mailto:info@abhishekkandel.com.np"><img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/abhishekkandel45" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -206,7 +206,7 @@ class AbhishekKandel:
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=667EEA&center=true&vCenter=true&width=700&lines=Thanks+for+stopping+by!+⭐+Star+something+if+it+helped!;Let's+build+the+future+of+AI+together+🚀;Always+open+to+collaborate+and+learn+🤝" alt="Footer Message"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=667EEA&center=true&vCenter=true&width=700&lines=Thanks+for+stopping+by!+⭐+Star+something+if+it+helped!;Let's+build+the+future+of+AI+together+🚀;Always+open+to+collaborate+and+learn+🤝" alt="Footer Message"/>
 
 <sub>📅 Last Updated: March 2026 &nbsp;|&nbsp; 🌟 Always Evolving</sub>
 
