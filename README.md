@@ -1,41 +1,87 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abhishek%20Kandel&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abhishek%20Kandel&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Engineer%20%7C%20ML%20Researcher%20%7C%20Full%20Stack%20Developer&descAlignY=58&descSize=20)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50">
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="50">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=800&color=667EEA&center=true&vCenter=true&width=850&height=80&lines=🚀+Building+Intelligent+Systems+at+Scale;🔬+IEEE+Published+AI+Researcher;🌐+Full+Stack+%26+MLOps+Engineer;🇳🇵+Proudly+Building+from+Nepal)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=800&color=667EEA&center=true&vCenter=true&width=800&height=100&lines=%F0%9F%9A%80+AI+Engineer+%26+ML+Specialist;%F0%9F%94%AC+Deep+Learning+Researcher;%F0%9F%8C%90+Full+Stack+Developer;%F0%9F%93%9A+IEEE+Published+Author)](https://git.io/typing-svg)
+<br/>
 
 [![GitHub followers](https://img.shields.io/github/followers/abhishekkandel45?style=for-the-badge&logo=github&logoColor=white&color=ff6b6b&labelColor=282828)](https://github.com/abhishekkandel45)
 [![GitHub stars](https://img.shields.io/github/stars/abhishekkandel45?style=for-the-badge&logo=github&logoColor=white&color=4ecdc4&labelColor=282828)](https://github.com/abhishekkandel45)
 [![Profile Views](https://komarev.com/ghpvc/?username=abhishekkandel45&style=for-the-badge&color=blueviolet&labelColor=282828)](https://github.com/abhishekkandel45)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](http://abhishekkandel.com.np)
 
 </div>
 
 ---
 
+## 🧠 Who Am I?
+
+<table>
+<tr>
+<td width="55%">
+
+```python
+class AbhishekKandel:
+    def __init__(self):
+        self.name       = "Abhishek Kandel"
+        self.role       = "AI Engineer & ML Researcher"
+        self.location   = "🇳🇵 Nepal"
+        self.experience = "6+ Years"
+        self.focus      = [
+            "Deep Learning & Computer Vision",
+            "MLOps & Scalable AI Systems",
+            "Full Stack Development",
+            "IEEE Research & Publishing",
+        ]
+        self.currently  = "Building AI that actually ships"
+        self.open_to    = ["Full-Time (Remote/Hybrid)",
+                           "AI/ML Consulting",
+                           "Research Collaboration"]
+
+    def __str__(self):
+        return "Turning coffee ☕ into intelligent systems 🤖"
+```
+
+</td>
+<td width="45%" align="center">
+
+<img src="https://github.com/abhishekkandel45.png" width="200" style="border-radius:50%"/>
+
+<br/><br/>
+
+![Available](https://img.shields.io/badge/💼_Status-Open_to_Work-00d26a?style=for-the-badge&labelColor=1a1a1a)
+![Nepal](https://img.shields.io/badge/🇳🇵_Based_in-Nepal-4ecdc4?style=for-the-badge&labelColor=1a1a1a)
+![Experience](https://img.shields.io/badge/🎯_Experience-6%2B_Years-ff6b6b?style=for-the-badge&labelColor=1a1a1a)
+![Papers](https://img.shields.io/badge/📚_IEEE_Papers-4_Published-blueviolet?style=for-the-badge&labelColor=1a1a1a)
+
+</td>
+</tr>
+</table>
+
+---
+
 <div align="center">
 
-## 🌟 About Me
+## ⚡ Impact at a Glance
 
-<table width="100%">
+<table>
 <tr>
-<td width="50%" align="center">
-<img src="https://github.com/abhishekkandel45.png" width="200"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/💼_Available-For_Hire-45b7d1?style=for-the-badge&labelColor=1a1a1a"/>
-<img src="https://img.shields.io/badge/🇳🇵_Nepal-Based-4ecdc4?style=for-the-badge&labelColor=1a1a1a"/>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/94.7%25-ML_Accuracy-ff6b6b?style=for-the-badge&labelColor=1a1a1a"/><br/>
+<sub>Deep Learning Models</sub>
 </td>
-<td width="50%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="150"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/🎯_6%2B_Years-Experience-ff6b6b?style=for-the-badge&labelColor=1a1a1a"/>
-<img src="https://img.shields.io/badge/💡_AI_Research-Active-green?style=for-the-badge&labelColor=1a1a1a"/>
-<br/>
-<img src="https://img.shields.io/badge/📚_4_Papers-Published-purple?style=for-the-badge&labelColor=1a1a1a"/>
-<img src="https://img.shields.io/badge/🌟_Open-Source-orange?style=for-the-badge&labelColor=1a1a1a"/>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/48ms-API_Latency-4ecdc4?style=for-the-badge&labelColor=1a1a1a"/><br/>
+<sub>High-Performance APIs</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/1M%2B-Users_Served-667eea?style=for-the-badge&labelColor=1a1a1a"/><br/>
+<sub>Global-Scale Systems</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/4-IEEE_Papers-f9ca24?style=for-the-badge&labelColor=1a1a1a"/><br/>
+<sub>Peer-Reviewed Research</sub>
 </td>
 </tr>
 </table>
@@ -46,60 +92,28 @@
 
 <div align="center">
 
-## 🔥 Tech Stack
+## 🔥 Tech Arsenal
 
 **🌐 Languages**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,go,java,cpp,c" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,go,java,cpp,c&perline=8" alt="Languages"/>
 
 **🎨 Frontend & Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,nodejs,fastapi,django,flask,express" alt="Frontend Backend"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,nodejs,fastapi,django,flask,express&perline=8" alt="Frontend & Backend"/>
 
-**🤖 AI & Machine Learning**
+**🤖 AI / ML / MLOps**
 <br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" alt="AI ML"/>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&perline=8" alt="AI ML"/>
+&nbsp;
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white"/>
 
 **🗄️ Databases & Cloud**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql,aws,gcp,docker,kubernetes" alt="Databases Cloud"/>
-
-</div>
-
----
-
-<div align="center">
-
-## ⚡ Impact Metrics
-
-<table align="center">
-<tr>
-<td align="center">
-<h3>94.7%</h3>
-<b>ML Accuracy</b>
-<br/>
-<sub>Deep Learning Models</sub>
-</td>
-<td align="center">
-<h3>48ms</h3>
-<b>API Latency</b>
-<br/>
-<sub>High Performance APIs</sub>
-</td>
-<td align="center">
-<h3>1M+</h3>
-<b>Users Served</b>
-<br/>
-<sub>Global Scale Systems</sub>
-</td>
-<td align="center">
-<h3>4</h3>
-<b>Publications</b>
-<br/>
-<sub>IEEE Research Papers</sub>
-</td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql,aws,gcp,docker,kubernetes&perline=8" alt="Databases & Cloud"/>
 
 </div>
 
@@ -109,14 +123,14 @@
 
 ## 🏆 Featured Projects
 
-| Project | Tech Stack | Impact |
-|---------|------------|--------|
-| 🏗️ **AI Building Footprint Detection** | PyTorch, FastAPI, React, PostGIS | 94.7% accuracy, 1M+ users, 5 countries |
-| ⚡ **ML Inference Engine** | Rust, ONNX, Kubernetes, gRPC | 48ms latency, 10k RPS, 99.9% uptime |
-| 🌿 **Plant Disease AI** | TensorFlow, Flutter, TF Lite | 99.29% accuracy, 100k+ downloads |
-| 🗳️ **Blockchain E-Voting** | Ethereum, Solidity, Web3.js | IEEE Published, 100% transparent |
-| 🧠 **AI Stress Detection** | Neural Networks, IoT, Edge AI | IEEE 2025, Medical-grade accuracy |
-| 🏠 **PropTech AI Platform** | Python, React, PostgreSQL | 1000+ daily users, 95% accuracy |
+| # | Project | Stack | Highlights |
+|---|---------|-------|------------|
+| 🏗️ | **AI Building Footprint Detection** | PyTorch · FastAPI · React · PostGIS | 94.7% accuracy · 1M+ users · 5 countries |
+| ⚡ | **ML Inference Engine** | Rust · ONNX · Kubernetes · gRPC | 48ms latency · 10k RPS · 99.9% uptime |
+| 🌿 | **Plant Disease AI** | TensorFlow · Flutter · TF Lite | 99.29% accuracy · 100k+ downloads |
+| 🗳️ | **Blockchain E-Voting** | Ethereum · Solidity · Web3.js | IEEE Published · 100% transparent audit |
+| 🧠 | **AI Stress Detection** | Neural Networks · IoT · Edge AI | IEEE 2025 · Medical-grade accuracy |
+| 🏠 | **PropTech AI Platform** | Python · React · PostgreSQL | 1000+ daily users · 95% match accuracy |
 
 </div>
 
@@ -132,9 +146,9 @@
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishekkandel45&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=10" alt="Top Languages"/>
 <img width="49%" src="https://github-contribution-stats.vercel.app/api/?username=abhishekkandel45&theme=dark" alt="Contribution Stats"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=abhishekkandel45&theme=react-dark&bg_color=0d1117&hide_border=true&point=f92672&line=f92672&color=c9d1d9" alt="Activity Graph"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=abhishekkandel45&theme=react-dark&bg_color=0d1117&hide_border=true&point=667eea&line=667eea&color=c9d1d9" alt="Activity Graph"/>
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=abhishekkandel45&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=abhishekkandel45&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies"/>
 
 </div>
 
@@ -144,11 +158,11 @@
 
 ## 📚 Research Publications
 
-| Publication | Venue | DOI |
-|-------------|-------|-----|
-| 🌿 Plant Disease Detection (99.29% accuracy) | Preprints | [10.20944/preprints202304.0259.v1](https://doi.org/10.20944/preprints202304.0259.v1) |
-| 🗳️ Blockchain E-voting System | IEEE SmartTech 2023 | [10.1109/SMART59791.2023.10428416](https://doi.org/10.1109/SMART59791.2023.10428416) |
-| 🧠 AI Stress Detection | IEEE CICTN 2025 | [10.1109/CICTN64563.2025.10932427](https://doi.org/10.1109/CICTN64563.2025.10932427) |
+| 📄 Paper | 🏛️ Venue | 🔗 DOI |
+|----------|----------|--------|
+| 🌿 **Plant Disease Detection** — 99.29% Accuracy CNN | Preprints · 2023 | [10.20944/preprints202304.0259.v1](https://doi.org/10.20944/preprints202304.0259.v1) |
+| 🗳️ **Blockchain E-Voting System** — Decentralized & Auditable | IEEE SmartTech · 2023 | [10.1109/SMART59791.2023.10428416](https://doi.org/10.1109/SMART59791.2023.10428416) |
+| 🧠 **AI Stress Detection via Physiological Signals** | IEEE CICTN · 2025 | [10.1109/CICTN64563.2025.10932427](https://doi.org/10.1109/CICTN64563.2025.10932427) |
 
 </div>
 
@@ -156,22 +170,23 @@
 
 <div align="center">
 
-## 💬 Connect With Me
+## 🤝 Let's Connect
 
-<a href="http://abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://blog.abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white"/></a>
-<a href="mailto:info@abhishekkandel.com.np"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="http://abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://blog.abhishekkandel.com.np" target="_blank"><img src="https://img.shields.io/badge/✍️_Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white"/></a>
+<a href="mailto:info@abhishekkandel.com.np"><img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/abhishekkandel45" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://twitter.com/abhishekkandel45" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://t.me/abhishekkandel45" target="_blank"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 <a href="https://www.researchgate.net/profile/Abhishek-Kandel" target="_blank"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white"/></a>
+
+<br/><br/>
 
 ### 📅 Availability
 
-| 💼 Full-Time | 🚀 Consulting | 🎓 Mentorship | 🔬 Collaboration |
-|:------------:|:-------------:|:-------------:|:----------------:|
-| Open (Remote/Hybrid) | Available (AI/ML) | Active | Open |
+| 💼 Full-Time | 🚀 Consulting | 🎓 Mentorship | 🔬 Research Collab |
+|:---:|:---:|:---:|:---:|
+| ✅ Open (Remote / Hybrid) | ✅ AI & ML Projects | ✅ Active | ✅ Open |
 
 </div>
 
@@ -179,20 +194,20 @@
 
 <div align="center">
 
-## 🎭 Daily Dev Inspiration
+## 💡 Dev Wisdom of the Day
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
 
 </div>
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&animation=fadeIn)
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=667EEA&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+profile!;Let's+build+something+amazing+together!" alt="Thanks"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=667EEA&center=true&vCenter=true&width=700&lines=Thanks+for+stopping+by!+⭐+Star+something+if+it+helped!;Let's+build+the+future+of+AI+together+🚀;Always+open+to+collaborate+and+learn+🤝" alt="Footer Message"/>
 
-<sub>📅 Last Updated: January 2026 | 🌟 Always Fresh Content</sub>
+<sub>📅 Last Updated: March 2026 &nbsp;|&nbsp; 🌟 Always Evolving</sub>
 
 </div>
